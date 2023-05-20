@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&family=Open+Sans&display=swap');
+
+* {
+    font-family: 'DM Serif Text', serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 400px;
+    height: 225px;
+}
+
+header h1:first-of-type {
+    color: red;
+    font-size: 100px;
+}
+
+main {
+    margin: 40px;
+}
+
+.enemy-title {
+    display: flex;
+    align-items: center;
+}
+
+.enemy-title h2 {
+    margin-bottom: 0;
+}
+
+#deathLogo {
+    width: 28px;
+    height: 28px;
+    margin-inline: 10px;
+    margin-top: 19.92px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    background-color: #e7e7e7;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+li input {
+    padding: 10px;
+}
+
+.submit {
+    border: none;
+    border-radius: .5rem;
+    background-color: white;
+    color: red;
+    font-size: 2rem;
+    padding:5px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.submit:focus {
+    background-color: red;
+    color: white;
+}
