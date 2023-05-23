@@ -46,6 +46,7 @@ main {
 ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
 }
 
 li {
@@ -80,4 +81,13 @@ li input {
 .submit:focus {
     background-color: red;
     color: white;
+}
+
+#removeBtn {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    background-color: grey;
+    color: white;
+    float:right;
+    border-radius: 10px;
 }
